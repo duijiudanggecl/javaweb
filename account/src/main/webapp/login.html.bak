@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login</title>
+<script charset="utf-8"  type="text/javascript" src="js/account_check_login.js"></script>
+</head>
+<body>
+	<form method="post" action="user/login.do"> 
+	    账号：<input type ="text" name="Name" id="Name"/>
+		<div class='warning' id='warning_Name'></div> <br /><br />
+	    密码：<input type ="password" name="Password" /> <br /><br />
+	    <input type="submit" value="  登陆  " />
+	    <input type="button" value="注册"  onclick="location.href='reg.html'"> 
+	    <br /><br />
+	</form>
+</body>
+</html>
